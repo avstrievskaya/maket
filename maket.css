@@ -1,12 +1,12 @@
 @font-face{
     font-family: 'FranklinGothic';
-    src: url(font/FranklinGothic.ttf);
+    src: url(../font/FranklinGothic.ttf);
 }
 body{
-background-color: #111c22;
-background-image: url(image/Bitmap.png);
-background-position: right top;
-background-repeat: no-repeat;
+    background-color: #111c22;
+    background-image: url(image/Bitmap.png);
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 .navigation{
     margin-left: 55px;
