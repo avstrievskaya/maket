@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'FranklinGothic';
-    src: url(../font/FranklinGothic.ttf);
+    src: url(font/FranklinGothic.ttf);
 }
 body{
     background-color: #111c22;
