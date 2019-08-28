@@ -1,52 +1,63 @@
 @font-face{
-    font-family: 'FranklinGothic';
-    src: url(font/FranklinGothic.ttf);
-}
+        font-family: 'Franklin Gothic';
+        src: url('font/subset-FranklinGothic-Medium.eot');
+        src: url('font/subset-FranklinGothic-Medium.eot?#iefix') format('embedded-opentype'),
+            url('font/subset-FranklinGothic-Medium.woff2') format('woff2'),
+            url('font/subset-FranklinGothic-Medium.woff') format('woff'),
+            url('font/subset-FranklinGothic-Medium.ttf') format('truetype'),
+            url('font/subset-FranklinGothic-Medium.svg#FranklinGothic-Medium') format('svg');
+        font-weight: 500;
+        font-style: normal;
+    }  
 body{
-    background-color: #111c22;
+    background-color: #141b23;
     background-image: url(image/Bitmap.png);
     background-position: right top;
     background-repeat: no-repeat;
-}
+    font-family: 'Franklin Gothic', sans-serif;
+    font-weight: 500;
+    }
 .navigation{
     margin-left: 55px;
     margin-right: 710px;
     margin-top: 65px;
-    margin-bottom: 70px;
+    margin-bottom: 71px;
 }
 .navigation-list{
-    font-family: 'FranklinGothic';
-    opacity: 0.87;
-    color: #b1bbcb;
+    color: #8b94a2;
     font-size: 15px;
-    font-weight: 500;
+    line-height: 18px;
     text-decoration: none;
+    margin-right: 15px;
+}
+.active{
+    font-size: 17px;
+    margin-right: 25px;
 }
 .title-style{
-    font-family: 'FranklinGothic';
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
     color: #ffffff;
     font-size: 25px;
-    font-weight: 500;
     line-height: 30px;
-    margin-left: 95px;
+    margin-left: 96px;
     margin-right: 748px;
+    margin-bottom: 10px;
+    font-weight: 500;
 }
-.text{
-    width: 467px;   
+.text{ 
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
     color: #ffffff;
-    font-family: "Franklin Gothic";
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 500;
     margin-left: 95px;
     margin-right: 768px;
     line-height: 15,6px;
 }
+.first{
+    margin-bottom: 21px;
+}
 .footer-text{
-    opacity: 0.5;
-    color: #b1bbcb;
-    font-family: "Franklin Gothic";
+    color: #40454c;
     font-size: 12px;
     font-weight: 500;
     line-height: 14.4px;
