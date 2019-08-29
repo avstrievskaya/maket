@@ -14,7 +14,7 @@ body{
     background-image: url(image/Bitmap.png);
     background-position: right top;
     background-repeat: no-repeat;
-    font-family: 'Franklin Gothic';
+    font-family: 'Franklin Gothic', sans-serif;
     font-weight: 500;
     }
 .navigation{
