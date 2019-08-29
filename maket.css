@@ -1,20 +1,20 @@
 @font-face{
-        font-family: 'Franklin Gothic';
-        src: url('font/subset-FranklinGothic-Medium.eot');
-        src: url('font/subset-FranklinGothic-Medium.eot?#iefix') format('embedded-opentype'),
-            url('font/subset-FranklinGothic-Medium.woff2') format('woff2'),
-            url('font/subset-FranklinGothic-Medium.woff') format('woff'),
-            url('font/subset-FranklinGothic-Medium.ttf') format('truetype'),
-            url('font/subset-FranklinGothic-Medium.svg#FranklinGothic-Medium') format('svg');
-        font-weight: 500;
-        font-style: normal;
+    font-family: 'Franklin Gothic';
+    src: url('font/subset-FranklinGothic-Medium.eot');
+    src: url('font/subset-FranklinGothic-Medium.eot?#iefix') format('embedded-opentype'),
+    url('font/subset-FranklinGothic-Medium.woff2') format('woff2'),
+    url('font/subset-FranklinGothic-Medium.woff') format('woff'),
+    url('font/subset-FranklinGothic-Medium.ttf') format('truetype'),
+    url('font/subset-FranklinGothic-Medium.svg#FranklinGothic-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
     }  
 body{
     background-color: #141b23;
     background-image: url(image/Bitmap.png);
     background-position: right top;
     background-repeat: no-repeat;
-    font-family: 'Franklin Gothic', sans-serif;
+    font-family: 'Franklin Gothic';
     font-weight: 500;
     }
 .navigation{
@@ -48,7 +48,6 @@ body{
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
     color: #ffffff;
     font-size: 13px;
-    font-weight: 500;
     margin-left: 95px;
     margin-right: 768px;
     line-height: 15,6px;
@@ -63,5 +62,6 @@ body{
     line-height: 14.4px;
     margin-left: 54px;
     margin-right: 822px;
-    margin-top: 130px;
+    margin-top: 140px;
+    margin-bottom: 50px;
 }
