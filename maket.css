@@ -17,6 +17,8 @@ body{
     font-family: 'Franklin Gothic', sans-serif;
     font-weight: 500;
     color: #ffffff;
+    margin: 0;
+    padding: 0;
     }
 .navigation{
     margin-left: 55px;
@@ -52,7 +54,7 @@ body{
     line-height: 16px;
 }
 .first{
-    margin-bottom: 21px;
+    margin-bottom: 16px;
 }
 .footer-text{
     color: #40454c;
